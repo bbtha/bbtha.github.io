@@ -2121,15 +2121,15 @@ input, select, textarea {
 
 		#top h1 {
 			margin-top: 0.15em;
-			margin-left: 3em;
-			margin-right:-3em
+			margin-left: 2.2em;
+			margin-right:-2.2em
 		}
 
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
-			margin-left: 5em;
-			margin-right: -7em
+			margin-left: 4em;
+			margin-right: -5em
 		}
 
 			#top p a {
@@ -2216,8 +2216,8 @@ input, select, textarea {
 			}
 
 				#top .button {
-					margin-left: 5em;
-					margin-right: -7em
+					margin-left: 4em;
+					margin-right: -5em
 				}
 
 	}
