@@ -2119,25 +2119,17 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#top .image {
-			border-radius: 100%;
-			width: 24em;
-			height: 24em;
-		}
-
-			#top .image img {
-				border-radius: 100%;
-			}
-
 		#top h1 {
 			margin-top: 0.15em;
-			margin-left: 0em;
+			margin-left: 3em;
+			margin-right:-3em
 		}
 
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
-			margin-left: 0em;
+			margin-left: 5em;
+			margin-right: -7em
 		}
 
 			#top p a {
@@ -2219,14 +2211,13 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 8em 0;
-				margin-left: 8em;
-				/* border-left: 100%; */
-				margin-right: -8em;
+				padding-right: -30em;
+				padding: 8em 20em;
 			}
 
 				#top .button {
-					margin-left: 0em;
+					margin-left: 5em;
+					margin-right: -7em
 				}
 
 	}
