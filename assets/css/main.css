@@ -2211,8 +2211,8 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding-right: -30em;
-				padding: 8em 20em;
+				
+				padding: 8em 0em;
 			}
 
 				#top .button {
@@ -2232,10 +2232,20 @@ input, select, textarea {
 				text-align: center;
 				padding: 5em 0;
 			}
-
-			#top .button {
+			#top h1 {
+				margin-top: 0.15em;
 				margin-left: 0em;
+				margin-right: 0em
 			}
+				#top p {
+					font-size: 1em;
+					margin-left: 0em;
+					margin-right: 0em;
+				}
+				#top .button {
+					margin-left: -1.5em;
+					margin-right: -1.5em
+				}
 
 	}
 
@@ -2411,15 +2421,16 @@ input, select, textarea {
 			#top {
 				padding: 3em 0;
 			}
-
-				#top .image {
-					width: 15em;
-					height: 18em;
-					margin-bottom: 0;
-				}
+			#top h1 {
+				margin-top: 0.15em;
+				margin-left: 1.2em;
+				margin-right:-0.2em
+			}
 
 				#top p {
 					font-size: 1em;
+					margin-left: -0.5em;
+					margin-right: -0.5em;
 				}
 				#top .button {
 					margin-left: 0em;
