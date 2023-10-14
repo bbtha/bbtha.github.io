@@ -2131,15 +2131,13 @@ input, select, textarea {
 
 		#top h1 {
 			margin-top: 0.15em;
-			margin-left: 5em;
-			margin-right: -2em
+			margin-left: 0em;
 		}
 
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
-			margin-left: 9em;
-			margin-right: -5em;
+			margin-left: 0em;
 		}
 
 			#top p a {
@@ -2222,15 +2220,13 @@ input, select, textarea {
 
 			#top {
 				padding: 8em 0;
+				margin-left: 8em;
+				/* border-left: 100%; */
+				margin-right: -8em;
 			}
 
-				#top .image {
-					width: 24em;
-					height: 24em;
-					margin: 0;
-				}
 				#top .button {
-					margin-left: 14em;
+					margin-left: 0em;
 				}
 
 	}
@@ -2246,9 +2242,9 @@ input, select, textarea {
 				padding: 5em 0;
 			}
 
-				#top .image {
-					margin: 0 auto 2em auto;
-				}
+			#top .button {
+				margin-left: 0em;
+			}
 
 	}
 
@@ -2433,6 +2429,9 @@ input, select, textarea {
 
 				#top p {
 					font-size: 1em;
+				}
+				#top .button {
+					margin-left: 0em;
 				}
 
 			#contact footer {
