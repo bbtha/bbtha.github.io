@@ -140,7 +140,7 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form name="sentMessage" id="contactForm" method="post" action="mail/contact_me.php">
+							<form name="sentMessage" id="contactForm" method="post" action="mail/contact_me.php" onsubmit="submitForm(); return false;">
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Name"/>
